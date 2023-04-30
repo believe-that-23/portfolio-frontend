@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { useNavigate } from 'react-router-dom';
 import Header from '../../components/Header'
 import AdminIntro from './AdminIntro';
 import AdminAbout from './AdminAbout';
@@ -10,11 +11,12 @@ import Contact from './Contact'
 const { TabPane } = Tabs;
 
 function Admin() {
+    const navigate = useNavigate();
     const { portfolioData } = useSelector((state) => state.root);
 
     useEffect(() => {
         if (!localStorage.getItem("token")) {
-            window.location.href = '/admin-login';
+            navigate('/admin-login')
         }
     }, [])
 
@@ -29,7 +31,7 @@ function Admin() {
                     <div className='underline text-primary text-xl cursor-pointer'
                         onClick={() => {
                             localStorage.removeItem('token');
-                            window.location.href = '/admin-login';
+                            navigate('/admin-login');
                         }}>Logout</div>
                 </div>
             </div>
