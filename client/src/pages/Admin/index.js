@@ -14,7 +14,7 @@ function Admin() {
 
     useEffect(() => {
         if (!localStorage.getItem("token")) {
-            window.location.href = 'https://portfolio-production-f0e9.up.railway.app/admin-login';
+            window.location.href = '/admin-login';
         }
     }, [])
 
