@@ -14,7 +14,7 @@ function App() {
   const getPortfolioData = async() => {
     try {
       dispatch(ShowLoading());
-      const response = await axios.get('https://portfolio-production-f0e9.up.railway.app/api/portfolio/get-portfolio-data');
+      const response = await axios.get('https://arnav-pandey.onrender.com/api/portfolio/get-portfolio-data');
       dispatch(setPortfolioData(response.data));
       dispatch(ReloadData(false));
       dispatch(HideLoading())
