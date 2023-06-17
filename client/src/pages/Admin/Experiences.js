@@ -17,12 +17,12 @@ function Experiences() {
             dispatch(ShowLoading());
             let response;
             if (selectedItemForEdit) {
-                response = await axios.post("https://portfolio-production-f0e9.up.railway.app/api/portfolio/update-experience", {
+                response = await axios.post("https://arnav-pandey.onrender.com/api/portfolio/update-experience", {
                     ...values,
                     _id: selectedItemForEdit._id,
                 });
             } else {
-                response = await axios.post("https://portfolio-production-f0e9.up.railway.app/api/portfolio/add-experience", values);
+                response = await axios.post("https://arnav-pandey.onrender.com/api/portfolio/add-experience", values);
             }
 
             dispatch(HideLoading());

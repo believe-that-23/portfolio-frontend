@@ -19,12 +19,12 @@ function Projects() {
             dispatch(ShowLoading());
             let response;
             if (selectedItemForEdit) {
-                response = await axios.post("https://portfolio-production-f0e9.up.railway.app/api/portfolio/update-project", {
+                response = await axios.post("https://arnav-pandey.onrender.com/api/portfolio/update-project", {
                     ...values,
                     _id: selectedItemForEdit._id,
                 });
             } else {
-                response = await axios.post("https://portfolio-production-f0e9.up.railway.app/api/portfolio/add-project", values);
+                response = await axios.post("https://arnav-pandey.onrender.com/api/portfolio/add-project", values);
             }
 
             dispatch(HideLoading());
