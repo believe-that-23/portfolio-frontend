@@ -1,0 +1,134 @@
+{
+    "intro": {
+        "_id": "644d2d5b5bb6405533c9bda9",
+        "welcomeText": "Hi, I'm",
+        "firstName": "Arnav Kumar",
+        "lastName": "Pandey",
+        "caption": "I build things on the web",
+        "description": "I am a Fullstack Web Developer. I also know basics of blockchain development which includes smart contracts with solidity and ethereum. I am also good at data structures and algorithms.",
+        "__v": 0
+    },
+    "about": {
+        "_id": "644d2d5b5bb6405533c9bdaa",
+        "lottieURL": "https://assets2.lottiefiles.com/private_files/lf30_WdTEui.json",
+        "description1": "I am currently pursuing B.Tech in Computer Science and Engineering from Madan Mohan Malaviya University. I have done courses of Web Development and Solidity from udemy.",
+        "description2": "I have been doing competitve programming since two years now. I have good grip over Data Structures and Algorithms.",
+        "skills": [
+            "JavaScript ",
+            " React ",
+            " Node ",
+            " Express ",
+            " MongoDB ",
+            " C++ ",
+            " Ethereum ",
+            " Solidity ",
+            " Smart-Contracts ",
+            " Web3.js"
+        ],
+        "__v": 0
+    },
+    "project": [
+        {
+            "_id": "644d2d5b5bb6405533c9bdaf",
+            "title": "Yelp-Camp",
+            "description": "See playgrounds near you and add details of playground too. Don't forget to add reviews",
+            "image": "https://user-images.githubusercontent.com/84314022/232247547-93815524-c62f-4e72-a318-9acbc84bc7b5.png",
+            "link": "https://yelp-camp-2023.cyclic.app/",
+            "technologies": [
+                "Node ",
+                "  Express ",
+                "  MongoDB ",
+                "  ejs ",
+                "  JOI",
+                " Cloudinary",
+                " Mapbox",
+                " Passport.js"
+            ],
+            "__v": 0
+        },
+        {
+            "_id": "644eb8aa5f544c06db05bcd7",
+            "title": "Block-Kart",
+            "description": "A Blockchain-based Ecommerce Website With Admin Pannel and Digital Warranty System using NFTs.",
+            "image": "https://raw.githubusercontent.com/believe-that-23/final/main/screenshots/1.jpeg",
+            "link": "https://github.com/believe-that-23/final",
+            "technologies": [
+                "Reactjs",
+                " Nodejs",
+                " MongoDB",
+                " Solidity",
+                " Ethereum",
+                " Web3js",
+                " ERC721 smart-contract"
+            ],
+            "__v": 0
+        },
+        {
+            "_id": "644eb98f5f544c06db05bcee",
+            "title": "Chat-messenger",
+            "description": "Chat with people online in real time by joining to same rooms...",
+            "image": "https://user-images.githubusercontent.com/84314022/193533323-cae080b2-5ffa-4a57-8d43-31ec867a2abd.png",
+            "link": "https://github.com/believe-that-23/chat_messanger",
+            "technologies": [
+                "Node",
+                " Express",
+                " Socket.io",
+                " React",
+                " CORS"
+            ],
+            "__v": 0
+        },
+        {
+            "_id": "644eba105f544c06db05bcfa",
+            "title": "Badjokes",
+            "description": "This is a joke app it bring jokes from (\"https://icanhazdadjoke.com/\") using API. Library used for fetch API is axios. ",
+            "image": "https://user-images.githubusercontent.com/84314022/191697972-c507d008-9460-49de-be30-2a872f44f215.png",
+            "link": "https://github.com/believe-that-23/BadJokes",
+            "technologies": [
+                "Reactjs",
+                " axios",
+                " html",
+                " css",
+                " javascipt"
+            ],
+            "__v": 0
+        },
+        {
+            "_id": "648d7a5fbfb512258aeea2a4",
+            "title": "Todo-App",
+            "description": "[To Do App] is a simple web application where you can Signup and login to the dashboard. On the dashboard you can add the important tasks for the day and get them tracked. Once the task is completed you can delete that particular todo and Logout of the application.",
+            "image": "https://user-images.githubusercontent.com/84314022/246598271-861d4475-84c6-46c5-b94f-99e12169931b.png",
+            "link": "https://github.com/believe-that-23/todo-app",
+            "technologies": [
+                "HTML/CSS",
+                " Javascript",
+                " ReactJs",
+                " NodeJS",
+                " JWT Authentication",
+                " Express.js",
+                " MongoDB"
+            ],
+            "__v": 0
+        }
+    ],
+    "experiences": [
+        {
+            "_id": "644d2d5b5bb6405533c9bdab",
+            "title": "CP Mentor",
+            "period": "2020-2022",
+            "company": "Codechef MMMUT Chapter",
+            "description": "Official coding club of college mentored by codechef.Created 30+ Coding Problems for Competitive Programming Contests held on Codechef.Clear Doubt and take session of the college student in DSA and Competitive Programming.",
+            "__v": 0
+        }
+    ],
+    "contact": {
+        "_id": "644d2d5b5bb6405533c9bdb1",
+        "name": "Arnav Kumar Pandey",
+        "gender": "Male",
+        "email": "pandey.arnav2399@gmail.com",
+        "mobile": "7906535739",
+        "age": "22",
+        "address": "Aligarh, Uttar Pradesh, India",
+        "__v": 0
+    }
+}

@@ -4,6 +4,7 @@ import axios from 'axios';
 import Loader from "./components/Loader";
 import Home from './pages/Home'
 import Admin from './pages/Admin'
+import data from './data/data.json'
 import Login from './pages/Admin/Login'
 import { useDispatch, useSelector } from "react-redux";
 import { HideLoading, setPortfolioData, ShowLoading, ReloadData } from "./redux/rootSlice";
@@ -14,8 +15,9 @@ function App() {
   const getPortfolioData = async() => {
     try {
       dispatch(ShowLoading());
-      const response = await axios.get('https://arnav-pandey.onrender.com/api/portfolio/get-portfolio-data');
-      dispatch(setPortfolioData(response.data));
+      // const response = await axios.get('https://arnav-pandey.onrender.com/api/portfolio/get-portfolio-data');
+      const response = data;
+      dispatch(setPortfolioData(response));
       dispatch(ReloadData(false));
       dispatch(HideLoading())
     } catch(err) {
